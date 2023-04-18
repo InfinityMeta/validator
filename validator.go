@@ -198,7 +198,7 @@ func validateIn(v reflect.Value, inStr string) ValidationError {
 	}
 
 	if !flag {
-		valErr.Err = errors.New("value not in a valid set")
+		valErr.Err = errors.New("value not in a validation set")
 		return valErr
 	}
 
